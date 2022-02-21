@@ -32,8 +32,7 @@ public class boardController {
 	
 	@Autowired
 	IPagingService paging;
-	
-	
+
 	@RequestMapping(value="/modify")
 	public ModelAndView modify(ModelAndView mv ,@RequestParam String indexno) {
 		
